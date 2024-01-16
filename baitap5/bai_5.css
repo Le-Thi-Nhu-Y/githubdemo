@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.double-underline {
+    position: relative;
+    display: inline-block;
+    color: #45474a;
+    font-weight: revert;
+}
+  
+.double-underline::before,
+.double-underline::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    height: 1px; /* Độ dày của gạch ngang */
+    background-color: #f5f5f5; /* Màu sắc của gạch ngang */
+}
+  
+.double-underline::before {
+    margin-right: 15px; /* Khoảng cách giữa văn bản và gạch ngang bên phải */
+    right: 100%;
+}
+  
+.double-underline::after {
+    margin-left: 15px; /* Khoảng cách giữa văn bản và gạch ngang bên trái */
+    left: 100%;
+}
+.div1 {
+    margin: 30px auto;
+    width: 100%;
+    text-align: center;
+    line-height: 3;
+}
+img {
+    margin: 6px;
+    width:"180";
+    height:"100",
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+}
