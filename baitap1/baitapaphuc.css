@@ -1,0 +1,37 @@
+:root {
+    --nhuycolor: red ;
+    font-size: 16px;
+}
+.canhgiua {
+    text-align: center; font-family: sans-serif;
+}
+h1{
+    font-weight: initial; font-family: sans-serif;
+}
+#button1 {
+    border-radius: 4px;
+    background-color: black; 
+    font-size: 16px; 
+    color: var(--nhuycolor);
+    padding: 17px 40px 17px 40px;
+    border:none;
+    cursor: pointer;
+    margin-top: 14px;
+    margin-right: 10px;}
+#button2 {
+    background-color: #27b7e3;
+    font-size: 16px;
+    padding: 17px 38px 17px 38px;
+    color: white;
+    border-radius: 4px;
+    border:none;
+    margin-top: 14px;
+    margin-left: 10px;
+    cursor: pointer;}
+#button1:hover{
+    background-color: brown;
+}
+
+.class_container>.class1, .class4 {
+    color: green
+    }
