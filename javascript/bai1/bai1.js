@@ -149,8 +149,8 @@
 //     console.log(languages[key])
 //  }
 
-var myString = 'Javascript'
+// var myString = 'Javascript'
 
-for (var key in myString) {
-    console.log(myString[key])
-}
+// for (var key in myString) {
+//     console.log(myString[key])
+// }
