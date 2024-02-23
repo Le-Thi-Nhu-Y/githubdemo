@@ -154,3 +154,37 @@
 // for (var key in myString) {
 //     console.log(myString[key])
 // }
+
+// var i = 0
+
+// while (i < 1000) {
+//     i++;
+//     console.log(i);
+// };
+
+// var i = 0;
+// var myArray = [
+//     'javascript',
+//     'java',
+//     'ruby',
+// ]
+// while (i < myArray.length) {
+//     console.log(myArray[i]);
+//     i++;
+// };
+
+//baitap7.1 su dung switch-case
+
+switch (browser) {
+    case 'Edge':
+        alert("You've got the Edge");
+        break;
+    case 'Chrom':
+    case 'Firefox':
+    case 'safari':
+    case 'Opera':
+        alert("Okey we support these browsers too ");
+        break;
+    default:
+        alert('We hope that this page looks ok!');
+}
